@@ -518,3 +518,60 @@ footer {
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+  .sm-display {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: self-start;
+    /* width: 100vw; */
+    padding: 1rem;
+  }
+
+  .sm-display i {
+    margin-left: 1rem;
+  }
+  .card-feedback-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 19rem;
+  }
+
+  .hero-card {
+    flex-direction: column;
+    width: 100vw;
+    /* text-align: center; */
+    align-items: center;
+    margin: 0rem;
+    padding: 3rem 0rem;
+  }
+  .card-left {
+    width: 20rem;
+  }
+
+  .card-right {
+    width: 15rem;
+  }
+  .services {
+    width: 94%;
+    margin: 0rem;
+  }
+
+  .services-grid div p {
+    width: 59%;
+    margin: 0 auto;
+  }
+
+  footer .links-container {
+    flex-wrap: wrap;
+  }
+
+  .feedback-header-content {
+    text-align: center;
+  }
+}
